@@ -1,0 +1,20 @@
+---
+name: ASP.NET Web App Build
+description: Build and publish ASP.NET Core apps
+icon: dotnet
+color: purple
+---
+name: ASP.NET Web App Build
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.x'
+      - run: dotnet build
