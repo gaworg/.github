@@ -1,9 +1,3 @@
----
-name: ASP.NET Web App Build
-description: Build and publish ASP.NET Core apps
-icon: dotnet
-color: purple
----
 name: ASP.NET Web App Build
 
 on:

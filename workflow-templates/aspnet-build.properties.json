@@ -1,0 +1,6 @@
+{
+  "name": "aspnet-build",
+  "description": "Builds an ASP.NET application using the .NET SDK",
+  "version": "1.0.0",
+  "icon": "gear"
+}
